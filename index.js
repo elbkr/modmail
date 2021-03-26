@@ -6,7 +6,7 @@ client.on("ready", () => {
 console.log("I am ready to receive and Send Mails :D")
 
 
-client.user.setActivity("Watching My Dm's :D")
+client.user.setActivity("My dm's :)", { type: "WATCHING" })
 })
 
 client.on("channelDelete", (channel) => {
@@ -53,7 +53,7 @@ client.on("message", async message => {
               role = await message.guild.roles.create({
                   data: {
                       name: "SUPPORTER",
-                      color: "GREEN"
+                      color: "#FFE65D"
                   },
                   reason: "Role needed for ModMail System"
               })
@@ -130,7 +130,7 @@ client.on("message", async message => {
 
           let nembed = new discord.MessageEmbed()
           .setAuthor("DETAILS", target.user.displayAvatarURL({dynamic: true}))
-          .setColor("BLUE")
+          .setColor("#FFE65D")
           .setThumbnail(target.user.displayAvatarURL({dynamic: true}))
           .setDescription(message.content)
           .addField("Name", target.user.username)
@@ -141,7 +141,7 @@ client.on("message", async message => {
 
           let uembed = new discord.MessageEmbed()
           .setAuthor("DIRECT MAIL OPENED")
-          .setColor("GREEN")
+          .setColor("#FFE65D")
           .setThumbnail(client.user.displayAvatarURL())
           .setDescription("You have been contacted by Supporter of **" + message.guild.name + "**, Please wait until he send another message to you!");
           
@@ -150,15 +150,14 @@ client.on("message", async message => {
 
           let newEmbed = new discord.MessageEmbed()
           .setDescription("Opened The Mail: <#" + channel + ">")
-          .setColor("GREEN");
+          .setColor("#FFE65D");
 
           return message.channel.send(newEmbed);
       } else if(command == "help") {
           let embed = new discord.MessageEmbed()
           .setAuthor('MODMAIL BOT', client.user.displayAvatarURL())
-          .setColor("GREEN")
-          
-        .setDescription("This bot is made by CTK WARRIOR, You can remove credits :D")
+          .setColor("#FFE65D")
+ 
         .addField(prefix + "setup", "Setup the modmail system(This is not for multiple server.)", true)
   
         .addField(prefix + "open", 'Let you open the mail to contact anyone with his ID', true)
@@ -186,7 +185,7 @@ client.on("message", async message => {
         if(!member) return message.channel.send('Unable To Send Message')
     
         let lembed = new discord.MessageEmbed()
-        .setColor("GREEN")
+        .setColor("#FFE65D")
         .setFooter(message.author.username, message.author.displayAvatarURL({dynamic: true}))
         .setDescription(message.content)
     
@@ -227,7 +226,7 @@ client.on("message", async message => {
 
           let sembed = new discord.MessageEmbed()
           .setAuthor("MAIN OPENED")
-          .setColor("GREEN")
+          .setColor("#FFE65D")
           .setThumbnail(client.user.displayAvatarURL())
           .setDescription("Conversation is now started, you will be contacted by supporters soon :D")
 
@@ -236,7 +235,7 @@ client.on("message", async message => {
 
           let eembed = new discord.MessageEmbed()
           .setAuthor("DETAILS", message.author.displayAvatarURL({dynamic: true}))
-          .setColor("BLUE")
+          .setColor("#FFE65D")
           .setThumbnail(message.author.displayAvatarURL({dynamic: true}))
           .setDescription(message.content)
           .addField("Name", message.author.username)
@@ -248,7 +247,7 @@ client.on("message", async message => {
       }
 
       let xembed = new discord.MessageEmbed()
-      .setColor("YELLOW")
+      .setColor("#FFE65D")
       .setFooter(message.author.tag, message.author.displayAvatarURL({dynamic: true}))
       .setDescription(message.content)
 
