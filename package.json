@@ -1,15 +1,33 @@
 {
-  "name": "Modmail",
+  "name": "lil-bkr",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Modmail bot for my server",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbkr/lil-bkr.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "modmail",
+    "bot"
+  ],
+  "author": "el bkr (https://github.com/elbkr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elbkr/lil-bkr/issues"
+  },
+  "homepage": "https://github.com/elbkr/lil-bkr#readme",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "chalk": "^4.1.2",
+    "char-mod-mail": "^1.1.4",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.6",
+    "path": "^0.12.7"
   }
 }
