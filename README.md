@@ -4,7 +4,7 @@ Discord modmail bot that uses mongo DB. Get in touch with the server members wit
 The user sends a message to the bot and the bot makes the rest.
 
 ## Functions
-- Send the user message to a channel (also images ;) )
+- Send the user message to a channel (also images and files ;) )
 - Answer people using a command
 - Block users so they won't use the bot, and unblock them if you want
 - Pause tickets (in progress)
