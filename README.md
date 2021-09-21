@@ -14,7 +14,7 @@ The user sends a message to the bot and the bot makes the rest.
 ![emojis](readme-img/emojis.png) ![logs](readme-img/logs.png)
 
 ## Contribution
-*Suggestions: MAking the help command, making the pause and unpause ticket commands, updating to slash commands.
+*Suggestions: Making the help command, making the pause and unpause ticket commands, updating to slash commands.*
 
 1. Fork or clone the repo
 2. Make your changes
