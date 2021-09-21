@@ -11,7 +11,7 @@ The user sends a message to the bot and the bot makes the rest.
 - Add people into tickets, so you can talk with them.
 - Log everything in a logs channel
 
-![emojis](readme-img/emojis.png) ![logs](readme-img/logs.png)
+![emojis](readme-img/emojis.png) ![logs](readme-img/logs.PNG)
 
 ## Contribution
 *Suggestions: Making the help command, making the pause and unpause ticket commands, updating to slash commands.*
