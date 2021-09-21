@@ -1,15 +1,15 @@
 {
   "1": {
     "name": "sent",
-    "id": "<:dc_online:889520013109784606>"
+    "id": "correct emoji id"
   },
   "2": {
     "name": "blocked",
-    "id": "<:dc_dnd:889520013042671676>"
+    "id": "blocked emoji id"
   },
 
   "3": {
     "name": "paused",
-    "id": "<:dc_idle:889520013021691944>"
+    "id": "paused emoji id"
   }
 }
